@@ -143,10 +143,10 @@ def generate_data():
     # 4. Generate Treasury Ledger (The "Hard Problems" Layer)
     treasury = []
     sources = [
-        {"id": "BANK_HDFC_001", "type": "BANK_ACCOUNT", "entity": "SonyLiv India"},
-        {"id": "BANK_HSBC_001", "type": "BANK_ACCOUNT", "entity": "Sony Global"},
-        {"id": "STRIPE_INR", "type": "PAYMENT_GATEWAY", "entity": "SonyLiv India"},
-        {"id": "APPLE_STORE", "type": "APP_STORE_MERCHANT", "entity": "Sony Global"}
+        {"id": "BANK_HDFC_001", "type": "BANK_ACCOUNT", "entity": "StreamNova India"},
+        {"id": "BANK_HSBC_001", "type": "BANK_ACCOUNT", "entity": "StreamNova Global"},
+        {"id": "STRIPE_INR", "type": "PAYMENT_GATEWAY", "entity": "StreamNova India"},
+        {"id": "APPLE_STORE", "type": "APP_STORE_MERCHANT", "entity": "StreamNova Global"}
     ]
     
     # Process PAID Receivables
@@ -213,7 +213,7 @@ def generate_data():
             "entry_id": f"TXN-OTH-{i}",
             "liquidity_source_id": random.choice(sources)["id"],
             "source_type": "BANK_ACCOUNT",
-            "legal_entity": "SonyLiv India",
+            "legal_entity": "StreamNova India",
             "transaction_date": txn_date.isoformat(),
             "settlement_status": "SETTLED",
             "amount_gross": random.choice([-500, -1500, -2500]), # Small recurring "Mystery" leakage

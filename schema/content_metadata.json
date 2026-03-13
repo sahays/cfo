@@ -14,7 +14,7 @@
     "properties": {
       "project_code": {
         "type": "string",
-        "description": "Unique identifier used in AP records (e.g., SONY_LIV_ORIG_001)."
+        "description": "Unique identifier used in AP records (e.g., SN_ORIG_001)."
       },
       "title": { "type": "string" },
       "content_type": {

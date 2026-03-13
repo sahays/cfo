@@ -45,7 +45,7 @@
         "enum": ["PENDING", "SETTLED", "FAILED", "REFUNDED", "HELD_IN_RESERVE"]
       },
       "reconciliation_ref": { "type": "string" },
-      "source_system": { "type": "string", "description": "e.g., SAP, NetSuite, Stripe-API" },
+      "source_system": { "type": "string", "description": "e.g., ERP-X, PayFlow-API" },
       "created_at": { "type": "string", "format": "date-time" },
       "updated_at": { "type": "string", "format": "date-time" },
       "version": { "type": "integer" }

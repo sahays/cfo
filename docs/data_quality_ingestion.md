@@ -4,7 +4,7 @@ Enterprise data is rarely "clean." This system employs a Gemini-powered ingestio
 
 ## 1. Common Data "Pollutants"
 *   **Missing Join Keys:** Bank statements missing Invoice IDs (reconciliation refs).
-*   **Semantic Inconsistency:** "Amazon Web Services" in AP vs. "AWS" in Treasury.
+*   **Semantic Inconsistency:** "CloudProvider X" in AP vs. "CPX" in Treasury.
 *   **Format Drift:** Inconsistent date formats (DD/MM vs MM/DD) or currency symbols.
 *   **Truncated Metadata:** Payment memos that cut off the project code.
 
@@ -17,7 +17,7 @@ Enterprise data is rarely "clean." This system employs a Gemini-powered ingestio
 
 ### B. Semantic Entity Resolution
 *   **Scenario:** Multiple variations of vendor or project names across systems.
-*   **Gemini Action:** Use LLM reasoning to map "Sony Originals - Season 2" and "SONY_LIV_S2_PROD" to the same `project_code` in `content_metadata.json`.
+*   **Gemini Action:** Use LLM reasoning to map "StreamNova Originals - Season 2" and "SN_ORIG_S2_PROD" to the same `project_code` in `content_metadata.json`.
 
 ### C. Pattern-Based Imputation
 *   **Scenario:** Missing `tax_amount` in an legacy AR system record.

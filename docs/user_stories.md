@@ -11,7 +11,7 @@ These stories represent the complex, "hard-problem" requirements for the AI-powe
 *   **Hard Problem:** Identifying unmapped outflows and "ghost" fees.
 
 ## 3. Controller (Data Quality & Intelligent Ingestion)
-*   **Story:** "As the Controller, I want to ask, 'How much of our data from the legacy ERP was automatically cleaned during ingestion?' and see a report of how Gemini mapped inconsistent vendor names (e.g., 'CPX' vs 'CloudProvider') and 'stitched' bank transactions to invoices that were missing reference numbers."
+*   **Story:** "As the Controller, I want to ask, 'How much of our data from the legacy ERP was automatically cleaned during ingestion?' and see a report of how Gemini mapped inconsistent vendor names (e.g., 'AWS' vs 'Amazon') and 'stitched' bank transactions to invoices that were missing reference numbers."
 *   **Hard Problem:** Semantic entity resolution and missing-key reconciliation.
 
 ## 4. FP&A Lead (Predictive Burn & Overruns)

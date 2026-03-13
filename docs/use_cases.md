@@ -3,7 +3,7 @@
 This app uses Gemini's reasoning capabilities to move beyond static charts into deep-dive anomaly detection and proactive remediation.
 
 ## Use Case 1: Real-Time Liquidity "Triangulation"
-*   **The Problem:** Cash is fragmented across Banks, PayFlow, AppStore Central, and AR.
+*   **The Problem:** Cash is fragmented across Banks, Stripe, Apple/Google, and AR.
 *   **Gemini Analysis:** Correlates `treasury_ledger` with `accounts_receivable` to find "Ghost Cash."
 *   **Question Answered:** "How much of our 'Earned Revenue' is currently stuck in the App Store vs. Payment Gateways?"
 *   **Remediation:** Gemini identifies the specific settlement delays and suggests moving high-volume regions to a direct-to-bank payment provider.

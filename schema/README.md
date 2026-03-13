@@ -5,7 +5,7 @@ This directory contains the production-grade JSON schemas for the AI-powered Cas
 ## Core Schemas
 
 ### 1. [Treasury Ledger](./treasury_ledger.json)
-The "Ground Truth" for liquidity. It consolidates transactions from banks, payment gateways (PayFlow), and app stores (AppStore Central).
+The "Ground Truth" for liquidity. It consolidates transactions from banks, payment gateways (Stripe), and app stores (Apple/Google).
 - **Key Features:** Gross vs. Net amount tracking, platform fee capture, and settlement status (Pending vs. Settled).
 
 ### 2. [Accounts Receivable (AR)](./accounts_receivable.json)

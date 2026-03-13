@@ -4,7 +4,7 @@ Enterprise data is rarely "clean." This system employs a Gemini-powered ingestio
 
 ## 1. Common Data "Pollutants"
 *   **Missing Join Keys:** Bank statements missing Invoice IDs (reconciliation refs).
-*   **Semantic Inconsistency:** "CloudProvider X" in AP vs. "CPX" in Treasury.
+*   **Semantic Inconsistency:** "Amazon Web Services" in AP vs. "AWS" in Treasury.
 *   **Format Drift:** Inconsistent date formats (DD/MM vs MM/DD) or currency symbols.
 *   **Truncated Metadata:** Payment memos that cut off the project code.
 

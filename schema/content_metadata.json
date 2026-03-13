@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Content & Project Metadata",
+  "description": "Dimensional data to enrich financial records for sophisticated conversational analysis.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "project_code",
+      "title",
+      "content_type",
+      "production_status"
+    ],
+    "properties": {
+      "project_code": {
+        "type": "string",
+        "description": "Unique identifier used in AP records (e.g., SONY_LIV_ORIG_001)."
+      },
+      "title": { "type": "string" },
+      "content_type": {
+        "type": "string",
+        "enum": ["ORIGINAL_SERIES", "LICENSED_MOVIE", "SPORTS_EVENT", "DOCUMENTARY", "SHORT_FORM"]
+      },
+      "genre": {
+        "type": "string",
+        "enum": ["DRAMA", "THRILLER", "COMEDY", "CRICKET", "REALITY", "ACTION"]
+      },
+      "production_tier": {
+        "type": "string",
+        "enum": ["TENTPOLE", "MID_BUDGET", "LOW_BUDGET"],
+        "description": "Helps in bucketed cash burn analysis."
+      },
+      "production_status": {
+        "type": "string",
+        "enum": ["DEVELOPMENT", "PRE_PRODUCTION", "FILMING", "POST_PRODUCTION", "RELEASED", "ARCHIVED"]
+      },
+      "primary_language": { "type": "string" },
+      "target_regions": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "release_date": { "type": "string", "format": "date" },
+      "lead_talent": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "List of major actors or directors for 'Star-Power' ROI analysis."
+      },
+      "estimated_total_budget": { "type": "number" },
+      "actual_spend_to_date": { "type": "number" }
+    }
+  }
+}

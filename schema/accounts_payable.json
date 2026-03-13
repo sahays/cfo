@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Production-Grade Accounts Payable (AP)",
+  "description": "Enterprise-ready AP schema with project/content linking and tax tracking.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "bill_id",
+      "vendor_id",
+      "invoice_date",
+      "due_date",
+      "base_amount",
+      "tax_amount",
+      "total_amount",
+      "currency",
+      "status",
+      "source_system",
+      "created_at"
+    ],
+    "properties": {
+      "bill_id": { "type": "string" },
+      "vendor_id": { "type": "string" },
+      "vendor_name": { "type": "string" },
+      "spend_category": {
+        "type": "string",
+        "enum": ["TECH_INFRASTRUCTURE", "CONTENT_PRODUCTION", "MARKETING", "TALENT_ROYALTIES", "TAX_AND_COMPLIANCE", "OPERATIONAL_OVERHEAD"]
+      },
+      "project_code": { "type": "string", "description": "Foreign key to content_metadata.json" },
+      "invoice_date": { "type": "string", "format": "date" },
+      "due_date": { "type": "string", "format": "date" },
+      "base_amount": { "type": "number" },
+      "tax_amount": { "type": "number" },
+      "total_amount": { "type": "number" },
+      "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+      "reporting_currency_code": { "type": "string", "pattern": "^[A-Z]{3}$" },
+      "reporting_currency_total_amount": { "type": "number" },
+      "exchange_rate": { "type": "number" },
+      "status": {
+        "type": "string",
+        "enum": ["PENDING_APPROVAL", "APPROVED", "SCHEDULED_FOR_PAYMENT", "PAID", "VOIDED"]
+      },
+      "source_system": { "type": "string" },
+      "created_at": { "type": "string", "format": "date-time" },
+      "updated_at": { "type": "string", "format": "date-time" },
+      "version": { "type": "integer" }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Production-Grade Treasury & Liquidity Ledger",
+  "description": "Enterprise-ready unified schema for tracking global cash across all liquidity pools.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "entry_id",
+      "liquidity_source_id",
+      "source_type",
+      "legal_entity",
+      "transaction_date",
+      "amount_gross",
+      "amount_net",
+      "currency",
+      "settlement_status",
+      "source_system",
+      "created_at"
+    ],
+    "properties": {
+      "entry_id": { "type": "string" },
+      "liquidity_source_id": { "type": "string" },
+      "source_type": {
+        "type": "string",
+        "enum": ["BANK_ACCOUNT", "PAYMENT_GATEWAY", "DIGITAL_WALLET", "APP_STORE_MERCHANT", "CREDIT_LINE", "PETTY_CASH"]
+      },
+      "legal_entity": { "type": "string" },
+      "transaction_date": { "type": "string", "format": "date-time" },
+      "settlement_date": { "type": "string", "format": "date-time" },
+      "amount_gross": { "type": "number" },
+      "platform_fees": { "type": "number" },
+      "amount_net": { "type": "number" },
+      "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+      "reporting_currency_code": { "type": "string", "pattern": "^[A-Z]{3}$", "description": "Consolidated currency (e.g., USD)." },
+      "reporting_currency_amount": { "type": "number" },
+      "exchange_rate": { "type": "number" },
+      "entry_type": {
+        "type": "string",
+        "enum": ["INFLOW", "OUTFLOW", "TRANSFER_BETWEEN_SOURCES", "FEE_ADJUSTMENT", "TAX_RESERVE"]
+      },
+      "is_intercompany": { "type": "boolean", "default": false },
+      "settlement_status": {
+        "type": "string",
+        "enum": ["PENDING", "SETTLED", "FAILED", "REFUNDED", "HELD_IN_RESERVE"]
+      },
+      "reconciliation_ref": { "type": "string" },
+      "source_system": { "type": "string", "description": "e.g., SAP, NetSuite, Stripe-API" },
+      "created_at": { "type": "string", "format": "date-time" },
+      "updated_at": { "type": "string", "format": "date-time" },
+      "version": { "type": "integer" }
+    }
+  }
+}

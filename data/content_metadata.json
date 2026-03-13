@@ -1,0 +1,958 @@
+[
+  {
+    "project_code": "SL_PROJ_100",
+    "title": "Media Title 1",
+    "content_type": "SHORT_FORM",
+    "genre": "THRILLER",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "FILMING",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "US",
+      "Singapore",
+      "UK"
+    ],
+    "release_date": "2025-12-14",
+    "estimated_total_budget": 4687330,
+    "actual_spend_to_date": 2204551
+  },
+  {
+    "project_code": "SL_PROJ_101",
+    "title": "Media Title 2",
+    "content_type": "SHORT_FORM",
+    "genre": "ACTION",
+    "production_tier": "MID_BUDGET",
+    "production_status": "POST_PRODUCTION",
+    "primary_language": "Telugu",
+    "target_regions": [
+      "Singapore"
+    ],
+    "release_date": "2025-11-26",
+    "estimated_total_budget": 3472744,
+    "actual_spend_to_date": 3079722
+  },
+  {
+    "project_code": "SL_PROJ_102",
+    "title": "Media Title 3",
+    "content_type": "ORIGINAL_SERIES",
+    "genre": "ACTION",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "DEVELOPMENT",
+    "primary_language": "Hindi",
+    "target_regions": [
+      "India",
+      "UAE",
+      "US"
+    ],
+    "release_date": "2025-11-30",
+    "estimated_total_budget": 4594639,
+    "actual_spend_to_date": 3555647
+  },
+  {
+    "project_code": "SL_PROJ_103",
+    "title": "Media Title 4",
+    "content_type": "ORIGINAL_SERIES",
+    "genre": "ACTION",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "FILMING",
+    "primary_language": "Telugu",
+    "target_regions": [
+      "US",
+      "UK"
+    ],
+    "release_date": "2025-09-04",
+    "estimated_total_budget": 3542437,
+    "actual_spend_to_date": 2433340
+  },
+  {
+    "project_code": "SL_PROJ_104",
+    "title": "Media Title 5",
+    "content_type": "DOCUMENTARY",
+    "genre": "THRILLER",
+    "production_tier": "TENTPOLE",
+    "production_status": "RELEASED",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "UK",
+      "US"
+    ],
+    "release_date": "2025-09-27",
+    "estimated_total_budget": 977519,
+    "actual_spend_to_date": 814789
+  },
+  {
+    "project_code": "SL_PROJ_105",
+    "title": "Media Title 6",
+    "content_type": "SPORTS_EVENT",
+    "genre": "DRAMA",
+    "production_tier": "MID_BUDGET",
+    "production_status": "DEVELOPMENT",
+    "primary_language": "Tamil",
+    "target_regions": [
+      "UAE",
+      "Singapore",
+      "UK"
+    ],
+    "release_date": "2025-12-28",
+    "estimated_total_budget": 4609019,
+    "actual_spend_to_date": 2210497
+  },
+  {
+    "project_code": "SL_PROJ_106",
+    "title": "Media Title 7",
+    "content_type": "ORIGINAL_SERIES",
+    "genre": "ACTION",
+    "production_tier": "MID_BUDGET",
+    "production_status": "RELEASED",
+    "primary_language": "English",
+    "target_regions": [
+      "India",
+      "UAE",
+      "Singapore"
+    ],
+    "release_date": "2026-01-22",
+    "estimated_total_budget": 1608491,
+    "actual_spend_to_date": 849536
+  },
+  {
+    "project_code": "SL_PROJ_107",
+    "title": "Media Title 8",
+    "content_type": "ORIGINAL_SERIES",
+    "genre": "CRICKET",
+    "production_tier": "MID_BUDGET",
+    "production_status": "DEVELOPMENT",
+    "primary_language": "English",
+    "target_regions": [
+      "Singapore",
+      "UK"
+    ],
+    "release_date": "2026-01-08",
+    "estimated_total_budget": 4428137,
+    "actual_spend_to_date": 2531123
+  },
+  {
+    "project_code": "SL_PROJ_108",
+    "title": "Media Title 9",
+    "content_type": "SHORT_FORM",
+    "genre": "CRICKET",
+    "production_tier": "TENTPOLE",
+    "production_status": "POST_PRODUCTION",
+    "primary_language": "English",
+    "target_regions": [
+      "UAE",
+      "US",
+      "India"
+    ],
+    "release_date": "2026-03-13",
+    "estimated_total_budget": 4089698,
+    "actual_spend_to_date": 1871485
+  },
+  {
+    "project_code": "SL_PROJ_109",
+    "title": "Media Title 10",
+    "content_type": "SHORT_FORM",
+    "genre": "ACTION",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "FILMING",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "US"
+    ],
+    "release_date": "2025-12-30",
+    "estimated_total_budget": 945002,
+    "actual_spend_to_date": 887791
+  },
+  {
+    "project_code": "SL_PROJ_110",
+    "title": "Media Title 11",
+    "content_type": "ORIGINAL_SERIES",
+    "genre": "THRILLER",
+    "production_tier": "MID_BUDGET",
+    "production_status": "FILMING",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "India",
+      "US",
+      "UAE"
+    ],
+    "release_date": "2025-09-03",
+    "estimated_total_budget": 2733344,
+    "actual_spend_to_date": 2521199
+  },
+  {
+    "project_code": "SL_PROJ_111",
+    "title": "Media Title 12",
+    "content_type": "DOCUMENTARY",
+    "genre": "DRAMA",
+    "production_tier": "MID_BUDGET",
+    "production_status": "POST_PRODUCTION",
+    "primary_language": "Hindi",
+    "target_regions": [
+      "India"
+    ],
+    "release_date": "2025-10-20",
+    "estimated_total_budget": 2604615,
+    "actual_spend_to_date": 2005250
+  },
+  {
+    "project_code": "SL_PROJ_112",
+    "title": "Media Title 13",
+    "content_type": "SHORT_FORM",
+    "genre": "THRILLER",
+    "production_tier": "TENTPOLE",
+    "production_status": "POST_PRODUCTION",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "UK"
+    ],
+    "release_date": "2025-12-16",
+    "estimated_total_budget": 3233411,
+    "actual_spend_to_date": 2349722
+  },
+  {
+    "project_code": "SL_PROJ_113",
+    "title": "Media Title 14",
+    "content_type": "ORIGINAL_SERIES",
+    "genre": "REALITY",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "PRE_PRODUCTION",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "India",
+      "US"
+    ],
+    "release_date": "2025-08-28",
+    "estimated_total_budget": 1796804,
+    "actual_spend_to_date": 1529756
+  },
+  {
+    "project_code": "SL_PROJ_114",
+    "title": "Media Title 15",
+    "content_type": "DOCUMENTARY",
+    "genre": "COMEDY",
+    "production_tier": "MID_BUDGET",
+    "production_status": "POST_PRODUCTION",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "UAE",
+      "Singapore",
+      "India"
+    ],
+    "release_date": "2025-11-28",
+    "estimated_total_budget": 2862603,
+    "actual_spend_to_date": 1599040
+  },
+  {
+    "project_code": "SL_PROJ_115",
+    "title": "Media Title 16",
+    "content_type": "DOCUMENTARY",
+    "genre": "DRAMA",
+    "production_tier": "TENTPOLE",
+    "production_status": "PRE_PRODUCTION",
+    "primary_language": "Telugu",
+    "target_regions": [
+      "UK"
+    ],
+    "release_date": "2025-10-07",
+    "estimated_total_budget": 1346395,
+    "actual_spend_to_date": 1418920
+  },
+  {
+    "project_code": "SL_PROJ_116",
+    "title": "Media Title 17",
+    "content_type": "SPORTS_EVENT",
+    "genre": "ACTION",
+    "production_tier": "TENTPOLE",
+    "production_status": "PRE_PRODUCTION",
+    "primary_language": "Tamil",
+    "target_regions": [
+      "India"
+    ],
+    "release_date": "2026-03-02",
+    "estimated_total_budget": 1814479,
+    "actual_spend_to_date": 1539955
+  },
+  {
+    "project_code": "SL_PROJ_117",
+    "title": "Media Title 18",
+    "content_type": "DOCUMENTARY",
+    "genre": "CRICKET",
+    "production_tier": "MID_BUDGET",
+    "production_status": "RELEASED",
+    "primary_language": "Tamil",
+    "target_regions": [
+      "US",
+      "Singapore",
+      "UAE"
+    ],
+    "release_date": "2026-01-03",
+    "estimated_total_budget": 1731501,
+    "actual_spend_to_date": 1819362
+  },
+  {
+    "project_code": "SL_PROJ_118",
+    "title": "Media Title 19",
+    "content_type": "SHORT_FORM",
+    "genre": "CRICKET",
+    "production_tier": "TENTPOLE",
+    "production_status": "DEVELOPMENT",
+    "primary_language": "Tamil",
+    "target_regions": [
+      "US",
+      "Singapore"
+    ],
+    "release_date": "2026-03-01",
+    "estimated_total_budget": 3203099,
+    "actual_spend_to_date": 2725249
+  },
+  {
+    "project_code": "SL_PROJ_119",
+    "title": "Media Title 20",
+    "content_type": "SHORT_FORM",
+    "genre": "COMEDY",
+    "production_tier": "TENTPOLE",
+    "production_status": "FILMING",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "US",
+      "UK",
+      "UAE"
+    ],
+    "release_date": "2026-03-07",
+    "estimated_total_budget": 1263479,
+    "actual_spend_to_date": 1066303
+  },
+  {
+    "project_code": "SL_PROJ_120",
+    "title": "Media Title 21",
+    "content_type": "LICENSED_MOVIE",
+    "genre": "THRILLER",
+    "production_tier": "TENTPOLE",
+    "production_status": "PRE_PRODUCTION",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "US"
+    ],
+    "release_date": "2025-10-25",
+    "estimated_total_budget": 2424631,
+    "actual_spend_to_date": 1100615
+  },
+  {
+    "project_code": "SL_PROJ_121",
+    "title": "Media Title 22",
+    "content_type": "SPORTS_EVENT",
+    "genre": "REALITY",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "RELEASED",
+    "primary_language": "Hindi",
+    "target_regions": [
+      "India"
+    ],
+    "release_date": "2025-08-21",
+    "estimated_total_budget": 2204180,
+    "actual_spend_to_date": 1891335
+  },
+  {
+    "project_code": "SL_PROJ_122",
+    "title": "Media Title 23",
+    "content_type": "SHORT_FORM",
+    "genre": "DRAMA",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "FILMING",
+    "primary_language": "Telugu",
+    "target_regions": [
+      "UK",
+      "India",
+      "UAE"
+    ],
+    "release_date": "2026-03-05",
+    "estimated_total_budget": 1648940,
+    "actual_spend_to_date": 780543
+  },
+  {
+    "project_code": "SL_PROJ_123",
+    "title": "Media Title 24",
+    "content_type": "SHORT_FORM",
+    "genre": "THRILLER",
+    "production_tier": "MID_BUDGET",
+    "production_status": "DEVELOPMENT",
+    "primary_language": "English",
+    "target_regions": [
+      "Singapore",
+      "UK",
+      "UAE"
+    ],
+    "release_date": "2026-03-09",
+    "estimated_total_budget": 899114,
+    "actual_spend_to_date": 1057074
+  },
+  {
+    "project_code": "SL_PROJ_124",
+    "title": "Media Title 25",
+    "content_type": "DOCUMENTARY",
+    "genre": "COMEDY",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "RELEASED",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "UK"
+    ],
+    "release_date": "2025-09-28",
+    "estimated_total_budget": 1718820,
+    "actual_spend_to_date": 1952557
+  },
+  {
+    "project_code": "SL_PROJ_125",
+    "title": "Media Title 26",
+    "content_type": "SHORT_FORM",
+    "genre": "COMEDY",
+    "production_tier": "MID_BUDGET",
+    "production_status": "PRE_PRODUCTION",
+    "primary_language": "English",
+    "target_regions": [
+      "UAE",
+      "India",
+      "US"
+    ],
+    "release_date": "2025-10-31",
+    "estimated_total_budget": 3637331,
+    "actual_spend_to_date": 2180978
+  },
+  {
+    "project_code": "SL_PROJ_126",
+    "title": "Media Title 27",
+    "content_type": "SHORT_FORM",
+    "genre": "ACTION",
+    "production_tier": "MID_BUDGET",
+    "production_status": "RELEASED",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "India"
+    ],
+    "release_date": "2026-02-28",
+    "estimated_total_budget": 931380,
+    "actual_spend_to_date": 819379
+  },
+  {
+    "project_code": "SL_PROJ_127",
+    "title": "Media Title 28",
+    "content_type": "ORIGINAL_SERIES",
+    "genre": "ACTION",
+    "production_tier": "TENTPOLE",
+    "production_status": "POST_PRODUCTION",
+    "primary_language": "Hindi",
+    "target_regions": [
+      "Singapore",
+      "UK",
+      "UAE"
+    ],
+    "release_date": "2026-02-19",
+    "estimated_total_budget": 2051715,
+    "actual_spend_to_date": 1619714
+  },
+  {
+    "project_code": "SL_PROJ_128",
+    "title": "Media Title 29",
+    "content_type": "SHORT_FORM",
+    "genre": "THRILLER",
+    "production_tier": "MID_BUDGET",
+    "production_status": "FILMING",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "India"
+    ],
+    "release_date": "2025-11-13",
+    "estimated_total_budget": 4997992,
+    "actual_spend_to_date": 2801394
+  },
+  {
+    "project_code": "SL_PROJ_129",
+    "title": "Media Title 30",
+    "content_type": "SHORT_FORM",
+    "genre": "THRILLER",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "FILMING",
+    "primary_language": "English",
+    "target_regions": [
+      "India",
+      "Singapore"
+    ],
+    "release_date": "2025-11-03",
+    "estimated_total_budget": 4776364,
+    "actual_spend_to_date": 4214658
+  },
+  {
+    "project_code": "SL_PROJ_130",
+    "title": "Media Title 31",
+    "content_type": "SHORT_FORM",
+    "genre": "DRAMA",
+    "production_tier": "TENTPOLE",
+    "production_status": "FILMING",
+    "primary_language": "Hindi",
+    "target_regions": [
+      "Singapore"
+    ],
+    "release_date": "2025-10-12",
+    "estimated_total_budget": 956589,
+    "actual_spend_to_date": 407578
+  },
+  {
+    "project_code": "SL_PROJ_131",
+    "title": "Media Title 32",
+    "content_type": "SHORT_FORM",
+    "genre": "REALITY",
+    "production_tier": "TENTPOLE",
+    "production_status": "DEVELOPMENT",
+    "primary_language": "Telugu",
+    "target_regions": [
+      "Singapore",
+      "US"
+    ],
+    "release_date": "2026-01-23",
+    "estimated_total_budget": 1188070,
+    "actual_spend_to_date": 538612
+  },
+  {
+    "project_code": "SL_PROJ_132",
+    "title": "Media Title 33",
+    "content_type": "DOCUMENTARY",
+    "genre": "THRILLER",
+    "production_tier": "MID_BUDGET",
+    "production_status": "FILMING",
+    "primary_language": "Hindi",
+    "target_regions": [
+      "UAE",
+      "US"
+    ],
+    "release_date": "2025-09-20",
+    "estimated_total_budget": 4239531,
+    "actual_spend_to_date": 2872966
+  },
+  {
+    "project_code": "SL_PROJ_133",
+    "title": "Media Title 34",
+    "content_type": "SPORTS_EVENT",
+    "genre": "REALITY",
+    "production_tier": "MID_BUDGET",
+    "production_status": "POST_PRODUCTION",
+    "primary_language": "Tamil",
+    "target_regions": [
+      "UK",
+      "Singapore",
+      "UAE"
+    ],
+    "release_date": "2025-09-29",
+    "estimated_total_budget": 1086224,
+    "actual_spend_to_date": 955337
+  },
+  {
+    "project_code": "SL_PROJ_134",
+    "title": "Media Title 35",
+    "content_type": "LICENSED_MOVIE",
+    "genre": "REALITY",
+    "production_tier": "MID_BUDGET",
+    "production_status": "FILMING",
+    "primary_language": "Tamil",
+    "target_regions": [
+      "UAE"
+    ],
+    "release_date": "2025-12-15",
+    "estimated_total_budget": 886413,
+    "actual_spend_to_date": 632886
+  },
+  {
+    "project_code": "SL_PROJ_135",
+    "title": "Media Title 36",
+    "content_type": "DOCUMENTARY",
+    "genre": "REALITY",
+    "production_tier": "TENTPOLE",
+    "production_status": "FILMING",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "UK"
+    ],
+    "release_date": "2026-02-27",
+    "estimated_total_budget": 2840151,
+    "actual_spend_to_date": 1810355
+  },
+  {
+    "project_code": "SL_PROJ_136",
+    "title": "Media Title 37",
+    "content_type": "SPORTS_EVENT",
+    "genre": "THRILLER",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "POST_PRODUCTION",
+    "primary_language": "Tamil",
+    "target_regions": [
+      "India"
+    ],
+    "release_date": "2025-09-10",
+    "estimated_total_budget": 2630558,
+    "actual_spend_to_date": 1123009
+  },
+  {
+    "project_code": "SL_PROJ_137",
+    "title": "Media Title 38",
+    "content_type": "SPORTS_EVENT",
+    "genre": "DRAMA",
+    "production_tier": "MID_BUDGET",
+    "production_status": "FILMING",
+    "primary_language": "Tamil",
+    "target_regions": [
+      "Singapore",
+      "US"
+    ],
+    "release_date": "2025-12-08",
+    "estimated_total_budget": 2891592,
+    "actual_spend_to_date": 1234865
+  },
+  {
+    "project_code": "SL_PROJ_138",
+    "title": "Media Title 39",
+    "content_type": "SPORTS_EVENT",
+    "genre": "DRAMA",
+    "production_tier": "TENTPOLE",
+    "production_status": "POST_PRODUCTION",
+    "primary_language": "Telugu",
+    "target_regions": [
+      "UAE"
+    ],
+    "release_date": "2025-10-01",
+    "estimated_total_budget": 1872709,
+    "actual_spend_to_date": 1009131
+  },
+  {
+    "project_code": "SL_PROJ_139",
+    "title": "Media Title 40",
+    "content_type": "SPORTS_EVENT",
+    "genre": "ACTION",
+    "production_tier": "MID_BUDGET",
+    "production_status": "DEVELOPMENT",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "India",
+      "US"
+    ],
+    "release_date": "2026-01-22",
+    "estimated_total_budget": 3672778,
+    "actual_spend_to_date": 3208400
+  },
+  {
+    "project_code": "SL_PROJ_140",
+    "title": "Media Title 41",
+    "content_type": "ORIGINAL_SERIES",
+    "genre": "DRAMA",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "DEVELOPMENT",
+    "primary_language": "English",
+    "target_regions": [
+      "US"
+    ],
+    "release_date": "2025-10-16",
+    "estimated_total_budget": 4369552,
+    "actual_spend_to_date": 3544898
+  },
+  {
+    "project_code": "SL_PROJ_141",
+    "title": "Media Title 42",
+    "content_type": "DOCUMENTARY",
+    "genre": "REALITY",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "PRE_PRODUCTION",
+    "primary_language": "English",
+    "target_regions": [
+      "US",
+      "Singapore",
+      "UAE"
+    ],
+    "release_date": "2025-10-24",
+    "estimated_total_budget": 2167699,
+    "actual_spend_to_date": 1249858
+  },
+  {
+    "project_code": "SL_PROJ_142",
+    "title": "Media Title 43",
+    "content_type": "ORIGINAL_SERIES",
+    "genre": "CRICKET",
+    "production_tier": "TENTPOLE",
+    "production_status": "PRE_PRODUCTION",
+    "primary_language": "Tamil",
+    "target_regions": [
+      "US",
+      "UK"
+    ],
+    "release_date": "2026-02-15",
+    "estimated_total_budget": 4582856,
+    "actual_spend_to_date": 3541425
+  },
+  {
+    "project_code": "SL_PROJ_143",
+    "title": "Media Title 44",
+    "content_type": "ORIGINAL_SERIES",
+    "genre": "CRICKET",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "POST_PRODUCTION",
+    "primary_language": "Telugu",
+    "target_regions": [
+      "UAE",
+      "Singapore",
+      "US"
+    ],
+    "release_date": "2026-01-31",
+    "estimated_total_budget": 4614069,
+    "actual_spend_to_date": 3400151
+  },
+  {
+    "project_code": "SL_PROJ_144",
+    "title": "Media Title 45",
+    "content_type": "SHORT_FORM",
+    "genre": "DRAMA",
+    "production_tier": "MID_BUDGET",
+    "production_status": "FILMING",
+    "primary_language": "English",
+    "target_regions": [
+      "US",
+      "India"
+    ],
+    "release_date": "2026-03-01",
+    "estimated_total_budget": 3718229,
+    "actual_spend_to_date": 2286138
+  },
+  {
+    "project_code": "SL_PROJ_145",
+    "title": "Media Title 46",
+    "content_type": "ORIGINAL_SERIES",
+    "genre": "COMEDY",
+    "production_tier": "MID_BUDGET",
+    "production_status": "DEVELOPMENT",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "India"
+    ],
+    "release_date": "2025-09-08",
+    "estimated_total_budget": 4564182,
+    "actual_spend_to_date": 3226503
+  },
+  {
+    "project_code": "SL_PROJ_146",
+    "title": "Media Title 47",
+    "content_type": "DOCUMENTARY",
+    "genre": "ACTION",
+    "production_tier": "TENTPOLE",
+    "production_status": "DEVELOPMENT",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "UAE"
+    ],
+    "release_date": "2025-11-20",
+    "estimated_total_budget": 1759602,
+    "actual_spend_to_date": 1192558
+  },
+  {
+    "project_code": "SL_PROJ_147",
+    "title": "Media Title 48",
+    "content_type": "SPORTS_EVENT",
+    "genre": "CRICKET",
+    "production_tier": "MID_BUDGET",
+    "production_status": "FILMING",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "India"
+    ],
+    "release_date": "2025-09-02",
+    "estimated_total_budget": 3304073,
+    "actual_spend_to_date": 2594472
+  },
+  {
+    "project_code": "SL_PROJ_148",
+    "title": "Media Title 49",
+    "content_type": "SHORT_FORM",
+    "genre": "CRICKET",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "POST_PRODUCTION",
+    "primary_language": "Tamil",
+    "target_regions": [
+      "US",
+      "UAE"
+    ],
+    "release_date": "2025-11-14",
+    "estimated_total_budget": 4274738,
+    "actual_spend_to_date": 3078555
+  },
+  {
+    "project_code": "SL_PROJ_149",
+    "title": "Media Title 50",
+    "content_type": "SPORTS_EVENT",
+    "genre": "ACTION",
+    "production_tier": "MID_BUDGET",
+    "production_status": "FILMING",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "UAE",
+      "US",
+      "Singapore"
+    ],
+    "release_date": "2026-01-02",
+    "estimated_total_budget": 1145703,
+    "actual_spend_to_date": 761412
+  },
+  {
+    "project_code": "SL_PROJ_150",
+    "title": "Media Title 51",
+    "content_type": "LICENSED_MOVIE",
+    "genre": "THRILLER",
+    "production_tier": "MID_BUDGET",
+    "production_status": "DEVELOPMENT",
+    "primary_language": "Tamil",
+    "target_regions": [
+      "Singapore",
+      "India",
+      "UK"
+    ],
+    "release_date": "2025-09-15",
+    "estimated_total_budget": 4215892,
+    "actual_spend_to_date": 2320799
+  },
+  {
+    "project_code": "SL_PROJ_151",
+    "title": "Media Title 52",
+    "content_type": "ORIGINAL_SERIES",
+    "genre": "REALITY",
+    "production_tier": "TENTPOLE",
+    "production_status": "PRE_PRODUCTION",
+    "primary_language": "Hindi",
+    "target_regions": [
+      "UK",
+      "India"
+    ],
+    "release_date": "2026-02-18",
+    "estimated_total_budget": 3046441,
+    "actual_spend_to_date": 1717060
+  },
+  {
+    "project_code": "SL_PROJ_152",
+    "title": "Media Title 53",
+    "content_type": "SPORTS_EVENT",
+    "genre": "REALITY",
+    "production_tier": "MID_BUDGET",
+    "production_status": "FILMING",
+    "primary_language": "English",
+    "target_regions": [
+      "UAE"
+    ],
+    "release_date": "2025-09-15",
+    "estimated_total_budget": 4285429,
+    "actual_spend_to_date": 2216407
+  },
+  {
+    "project_code": "SL_PROJ_153",
+    "title": "Media Title 54",
+    "content_type": "SHORT_FORM",
+    "genre": "ACTION",
+    "production_tier": "MID_BUDGET",
+    "production_status": "RELEASED",
+    "primary_language": "Hindi",
+    "target_regions": [
+      "Singapore"
+    ],
+    "release_date": "2025-10-19",
+    "estimated_total_budget": 3249862,
+    "actual_spend_to_date": 2443586
+  },
+  {
+    "project_code": "SL_PROJ_154",
+    "title": "Media Title 55",
+    "content_type": "DOCUMENTARY",
+    "genre": "DRAMA",
+    "production_tier": "TENTPOLE",
+    "production_status": "FILMING",
+    "primary_language": "Tamil",
+    "target_regions": [
+      "UK"
+    ],
+    "release_date": "2025-12-16",
+    "estimated_total_budget": 3802517,
+    "actual_spend_to_date": 2963432
+  },
+  {
+    "project_code": "SL_PROJ_155",
+    "title": "Media Title 56",
+    "content_type": "SPORTS_EVENT",
+    "genre": "ACTION",
+    "production_tier": "TENTPOLE",
+    "production_status": "RELEASED",
+    "primary_language": "English",
+    "target_regions": [
+      "Singapore",
+      "US"
+    ],
+    "release_date": "2025-09-10",
+    "estimated_total_budget": 3580981,
+    "actual_spend_to_date": 1956740
+  },
+  {
+    "project_code": "SL_PROJ_156",
+    "title": "Media Title 57",
+    "content_type": "LICENSED_MOVIE",
+    "genre": "CRICKET",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "DEVELOPMENT",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "India"
+    ],
+    "release_date": "2025-10-28",
+    "estimated_total_budget": 3711008,
+    "actual_spend_to_date": 1758875
+  },
+  {
+    "project_code": "SL_PROJ_157",
+    "title": "Media Title 58",
+    "content_type": "LICENSED_MOVIE",
+    "genre": "DRAMA",
+    "production_tier": "MID_BUDGET",
+    "production_status": "POST_PRODUCTION",
+    "primary_language": "Telugu",
+    "target_regions": [
+      "UK",
+      "UAE",
+      "US"
+    ],
+    "release_date": "2026-02-11",
+    "estimated_total_budget": 1338621,
+    "actual_spend_to_date": 1070799
+  },
+  {
+    "project_code": "SL_PROJ_158",
+    "title": "Media Title 59",
+    "content_type": "ORIGINAL_SERIES",
+    "genre": "COMEDY",
+    "production_tier": "MID_BUDGET",
+    "production_status": "FILMING",
+    "primary_language": "Marathi",
+    "target_regions": [
+      "UAE",
+      "Singapore",
+      "India"
+    ],
+    "release_date": "2025-10-05",
+    "estimated_total_budget": 4684655,
+    "actual_spend_to_date": 3670586
+  },
+  {
+    "project_code": "SL_PROJ_159",
+    "title": "Media Title 60",
+    "content_type": "DOCUMENTARY",
+    "genre": "REALITY",
+    "production_tier": "LOW_BUDGET",
+    "production_status": "RELEASED",
+    "primary_language": "Telugu",
+    "target_regions": [
+      "UK",
+      "Singapore"
+    ],
+    "release_date": "2025-12-02",
+    "estimated_total_budget": 2629998,
+    "actual_spend_to_date": 2368942
+  }
+]
